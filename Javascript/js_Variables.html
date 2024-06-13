@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+            }
+
+            code {
+                background: #f4f4f4;
+                padding: 2px 4px;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+
+
+        <h1>Javascript Variables</h1>
+        <h2>What is a Variable?</h2>
+        <p>A variable in JavaScript is like a storage box where you can keep a value that you can use later. Think of it like naming a box and then putting something inside it.</p>
+        <pre>var myName = "John";</pre>
+
+        <div class="container">
+            <h2>Parts of a Variable in JavaScript</h2>
+            <p>A variable in JavaScript is made up of three main parts:</p>
+            <ol>
+                <li>
+                    <strong>Declaration Keyword:</strong>
+                    <p>This is the keyword used to declare a variable. The common keywords are <code>var</code>, <code>let</code>, and <code>const</code>.</p>
+                    <ul>
+                        <li><code>var</code>: The old way of declaring variables, used globally or function-scoped.</li>
+                        <li><code>let</code>: The modern way to declare block-scoped variables.</li>
+                        <li><code>const</code>: Used to declare block-scoped constants that cannot be reassigned.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Variable Name (Identifier):</strong>
+                    <p>This is the name you give to the variable so you can reference it later. The name should follow these rules:</p>
+                    <ul>
+                        <li>Must start with a letter, underscore (_), or dollar sign ($).</li>
+                        <li>Can contain letters, numbers, underscores, or dollar signs after the first character.</li>
+                        <li>Case-sensitive (e.g., <code>myVariable</code> and <code>myvariable</code> are different).</li>
+                    </ul>
+                    <p>Example: <code>let age;</code></p>
+                </li>
+                <li>
+                    <strong>Assignment Operator and Value:</strong>
+                    <p>This is the equal sign (<code>=</code>) used to assign a value to the variable. The value can be any data type, such as a number, string, boolean, etc.</p>
+                    <p>Example: <code>let age = 16;</code></p>
+                </li>
+            </ol>
+            <h2>Example Code</h2>
+            <p>Here's an example of a variable declaration in JavaScript:</p>
+            <pre><code>let name = "Alice";</code></pre>
+            <p>In this example:</p>
+            <ul>
+                <li><code>let</code> is the <strong>declaration keyword</strong>.</li>
+                <li><code>name</code> is the <strong>variable name</strong>.</li>
+                <li><code>= "Alice"</code> is the <strong>assignment operator and value</strong>.</li>
+            </ul>
+        </div>
+
+
+
+        <h2>Choosing Between let and const</h2>
+        <ul>
+            <li>Use let if you expect the value of the variable to change.</li>
+            <li>Use const if the value should stay the same.</li>
+        </ul>
+
+        <h2>Variable Names</h2>
+        <p>When naming a variable, follow these rules:</p>
+        <ul>
+            <li>Start with a letter, underscore (_), or dollar sign ($).</li>
+            <li>After the first character, you can use numbers, letters, underscores, or dollar signs.</li>
+            <li>Variables are case-sensitive, so myVariable and myvariable are different.</li>
+        </ul>
+
+
+        <h2>Changing Variable Values</h2>
+        <p>
+        <p>If you use let, you can change the value of the variable later:</p>
+        </p>
+        <h1>Hello, world!</h1>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+
+</html>
